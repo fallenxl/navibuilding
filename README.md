@@ -1,17 +1,17 @@
-# 🏢 NaviBuilding - Interactive Building Map Navigator
+# NaviBuilding - Interactive Building Map Navigator
 
 An interactive web application for navigating and exploring building floor maps. Allows users to search for rooms, view their location on interactive SVG floor plans, and get step-by-step navigation routes between floors.
 
-## ✨ Features
+## Features
 
-- 🗺️ **Interactive Maps**: Visualize floors with interactive SVG rendering
-- 🔍 **Advanced Search**: Search rooms by name, description, or category
-- 📍 **Zoom & Pan**: Intuitive zoom and navigation controls on maps
-- 🧭 **Multi-floor Navigation**: Get step-by-step directions between locations
-- 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
-- ⚡ **Optimized Performance**: Built with Next.js 15
+-  **Interactive Maps**: Visualize floors with interactive SVG rendering
+-  **Advanced Search**: Search rooms by name, description, or category
+-  **Zoom & Pan**: Intuitive zoom and navigation controls on maps
+-  **Multi-floor Navigation**: Get step-by-step directions between locations
+-  **Responsive Design**: Works seamlessly on desktop and mobile devices
+-  **Optimized Performance**: Built with Next.js 15
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - **Framework**: [Next.js 15](https://nextjs.org)
 - **React**: v19
@@ -22,7 +22,7 @@ An interactive web application for navigating and exploring building floor maps.
 - **Icons**: [Lucide React](https://lucide.dev)
 - **Zoom/Pan**: [react-zoom-pan-pinch](https://github.com/BetterTyped/react-zoom-pan-pinch)
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Node.js 18+
@@ -45,7 +45,7 @@ npm run dev
 # http://localhost:3000
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -68,7 +68,7 @@ src/
     └── floors.json        # Floor and room data
 ```
 
-## 🎯 Key Features
+##  Key Features
 
 ### Room Search
 Search any room in real-time. Filter includes:
@@ -94,7 +94,7 @@ When you select a room:
 - **Floor 3** - Third floor (5 rooms)
 - **Floor 4** - Fourth floor (1 room)
 
-## 🎨 Design Features
+##  Design Features
 
 - **Light/Dark Theme**: Automatic CSS variables support
 - **Responsive Design**: Mobile-first approach
@@ -102,13 +102,13 @@ When you select a room:
 - **Accessible Components**: Built with Radix UI
 - **Custom Background**: Decorative dot pattern
 
-## 📱 Responsive Breakpoints
+##  Responsive Breakpoints
 
 - **Mobile**: < 768px
 - **Tablet**: 768px - 1024px
 - **Desktop**: > 1024px
 
-## 🔧 Available Scripts
+##  Available Scripts
 
 ```bash
 npm run dev      # Start development server
@@ -117,7 +117,7 @@ npm start        # Start production server
 npm run lint     # Run linter
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 
@@ -139,7 +139,7 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-## 📊 Global State Management
+## Global State Management
 
 The project uses **Zustand** to manage:
 - Available floors
@@ -148,7 +148,7 @@ The project uses **Zustand** to manage:
 - Information panel state
 - Search and selection methods
 
-## 🎓 Key Learnings
+## Key Learnings
 
 - Efficient state management with Zustand
 - Dynamic SVG rendering and interactivity
@@ -156,11 +156,11 @@ The project uses **Zustand** to manage:
 - Reusable components with Tailwind CSS
 - Type-safety with TypeScript
 
-## 📝 License
+## License
 
 MIT
 
-## 👨‍💻 Author
+## Author
 
 Axl Santos
 
